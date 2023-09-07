@@ -1,4 +1,6 @@
-package designpattern.domain.dto;
+package designpattern.domain.dto.enrichers;
+
+import designpattern.domain.dto.InventoryTypes;
 
 import java.util.ArrayList;
 import java.util.List;
