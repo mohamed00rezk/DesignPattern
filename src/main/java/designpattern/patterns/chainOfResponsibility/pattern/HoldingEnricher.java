@@ -1,7 +1,8 @@
-package designpattern.patterns.chainOfResponsibilityPattern;
+package designpattern.patterns.chainOfResponsibility.pattern;
 
 import designpattern.domain.dto.enrichers.ContextType;
 import designpattern.domain.dto.enrichers.EnrichersData;
+import designpattern.patterns.chainOfResponsibility.service.EnrichContext;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
@@ -12,12 +13,11 @@ import java.util.Map;
 @Log4j2
 @Service
 @RequiredArgsConstructor
-public class HoldingFromItemEnricher implements EnrichContext {
+public class HoldingEnricher implements EnrichContext {
 
     @Override
     public void enrichContext(ContextType contextType, EnrichersData enrichersData){
-        enrichersData.Holdings  = List.of(Map.of("holdingFromItem1" , "data of holdingFromItem1")) ;
+        enrichersData.Holdings  = List.of(Map.of("holding1" , "data of holding1")) ;
     }
-
 
 }

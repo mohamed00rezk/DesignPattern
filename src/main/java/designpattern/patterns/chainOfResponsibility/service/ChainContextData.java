@@ -1,8 +1,9 @@
-package designpattern.patterns.chainOfResponsibilityPattern;
+package designpattern.patterns.chainOfResponsibility.service;
 
 import designpattern.domain.dto.enrichers.EnrichersData;
 import designpattern.domain.dto.enrichers.ContextType;
 import designpattern.domain.dto.InventoryTypes;
+import designpattern.patterns.chainOfResponsibility.pattern.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;

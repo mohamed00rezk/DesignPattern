@@ -5,9 +5,7 @@ public class InstanceSingleton {
     //private static final InstanceSingleton instance = new InstanceSingleton();
 
     private static InstanceSingleton instance;
-    private InstanceSingleton(){
-
-    }
+    private InstanceSingleton(){}
 
     public static InstanceSingleton getInstance() {
         if (instance == null) {

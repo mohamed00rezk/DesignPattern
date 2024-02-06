@@ -1,4 +1,4 @@
-package designpattern.patterns.factoryPattern;
+package designpattern.patterns.factory;
 
 import designpattern.domain.dto.Item;
 import designpattern.domain.dto.ItemStatus;

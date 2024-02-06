@@ -1,4 +1,4 @@
-package designpattern.patterns.chainOfResponsibilityPattern;
+package designpattern.patterns.chainOfResponsibility.service;
 
 import designpattern.domain.dto.enrichers.EnrichersData;
 import designpattern.domain.dto.enrichers.ContextType;
